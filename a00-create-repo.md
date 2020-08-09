@@ -103,6 +103,65 @@ $
 ```
 
 <br>
+* Name and Email
+
+Input (Cut and Paste):
+```
+git config --global user.email "my@e.mail"
+git config --global user.name "My Name"
+```
+
+Output:
+```
+$ git config --global user.email "my@e.mail"
+$ git config --global user.name "My Name"
+$
+```
+
+<br>
+* Initial Commit
+
+Input (Cut and Paste):
+```
+git commit -am "Initial Commit" --allow-empty
+git log --stat
+```
+
+Output:
+```
+$ git commit -am "Initial Commit" --allow-empty
+[master (root-commit) 498dda4] Initial Commit
+$ git log --stat
+commit 498dda4b0ca033599960e404b4a02cadcbb65acc (HEAD -> master)
+Author: My Name <my@e.mail>
+Date:   Sun Aug 9 15:44:46 2020 +0700
+
+    Initial Commit
+$ 
+```
+
+```
+$ git remote add origin ../remote/
+$ git push --set-upstream origin master;
+Enumerating objects: 2, done.
+Counting objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 159 bytes | 159.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To ../remote/
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+$ git branch -v; git remote -v; git status;
+* master 498dda4 Initial Commit
+origin	../remote/ (fetch)
+origin	../remote/ (push)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+$ 
+```
+
+<br>
 <hr>
 <br>
 #### ENDOFPAGE
