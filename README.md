@@ -1,6 +1,6 @@
 ---
 ---
-# About Operating System Programming 4DISS
+# About
 
 [HOME](index.md)
 [ABOUT](README.md)
