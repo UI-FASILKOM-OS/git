@@ -15,7 +15,9 @@
 <br>
 ## Command Lines
 
+* cat
 * cd
+* echo
 * git
    * git add
    * git init
@@ -52,16 +54,43 @@ $
 ```
 
 <br>
-## Add "file1.txt" to Stage
+## Add "file.txt" to Stage
 
 Input (Cut and Paste):
 ```
+echo 'This is file.txt' > file.txt
+cat file.txt
+ls -al
 git add file.txt 
 git status
 ```
 
 Output:
 ```
+$ echo 'This is file.txt' > file.txt
+
+$ cat file.txt
+This is file.txt
+
+$ ls -al
+total 16
+drwxr-xr-x 3 demo demo 4096 Aug 10 13:49 .
+drwxr-xr-x 3 demo demo 4096 Aug 10 09:22 ..
+-rw-r--r-- 1 demo demo   17 Aug 10 13:49 file.txt
+drwxr-xr-x 7 demo demo 4096 Aug 10 13:46 .git
+
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	file.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
 $ git add file.txt 
 
 $ git status

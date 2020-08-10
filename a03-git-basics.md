@@ -15,9 +15,12 @@
 <br>
 ## Command Lines
 
+* cat
 * cd
+* echo
 * git
    * git add
+   * git commit
    * git init
    * git status
    * git rm --cached
@@ -30,7 +33,16 @@
 * rm
 
 <br>
-## Git Status
+## Git Commit
+
+Input (Cut and Paste):
+```
+
+Output
+```
+
+
+
 
 
 <br>
