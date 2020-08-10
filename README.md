@@ -7,7 +7,7 @@
 [WEB](https://git.vlsm.org/)
 [GITHUB](https://github.com/UI-FASILKOM-OS/git/)
 
-This site is about Git.
+This is a git demo, not a tutorial.
 
 <br>
 <hr>

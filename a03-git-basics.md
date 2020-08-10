@@ -7,16 +7,31 @@
 [GITHUB](https://github.com/UI-FASILKOM-OS/git/)
 [TOP](#)
 [BOTTOM](#endofpage)
-[PREV](a03-git-basics.md)
-[NEXT](a01-git-basics.md)
+[PREV](a02-git-basics.md)
+[NEXT](index.md)
 
-This is a demo, not a tutorial.
+# Git Basics 3
 
-# Links
+<br>
+## Command Lines
 
-* [Create a Git Repository](a01-git-basics.md)
-* [Staging a File](a02-git-basics.md)
-* [Commit](a03-git-basics.md)
+* cd
+* git
+   * git add
+   * git init
+   * git status
+   * git rm --cached
+* ls
+   * ls -l
+   * ls -al
+* mkdir
+* PS1="$ "
+* pwd
+* rm
+
+<br>
+## Git Status
+
 
 <br>
 <hr>
@@ -28,7 +43,7 @@ This is a demo, not a tutorial.
 [GITHUB](https://github.com/UI-FASILKOM-OS/git/)
 [TOP](#)
 [BOTTOM](#endofpage)
-[PREV](a03-git-basics.md)
-[NEXT](a01-git-basics.md)
+[PREV](a02-git-basics.md)
+[NEXT](index.md)
 <br>
 

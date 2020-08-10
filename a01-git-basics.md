@@ -18,7 +18,6 @@
 * cd
 * git
    * git init
-   * git status
 * ls
    * ls -l
    * ls -al
@@ -90,28 +89,6 @@ drwxr-xr-x 3 demo demo 4096 Aug 10 09:22 .
 drwxr-xr-x 3 demo demo 4096 Aug 10 09:22 ..
 drwxr-xr-x 7 demo demo 4096 Aug 10 09:22 .git
 $ 
-```
-
-<br>
-## Git Status
-
-Input (Cut and Paste):
-```
-pwd
-git status
-```
-
-Output:
-```
-$ pwd
-/home/demo/exercise/demo
-$ git status
-On branch master
-
-No commits yet
-
-nothing to commit (create/copy files and use "git add" to track)
-$
 ```
 
 <br>
