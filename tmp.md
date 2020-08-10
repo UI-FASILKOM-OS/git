@@ -268,3 +268,154 @@ $
 [NEXT](a10-git-basics.md)
 <br>
 
+---
+---
+
+[HOME](index.md)
+[ABOUT](README.md)
+[WEB](https://git.vlsm.org/)
+[GITHUB](https://github.com/UI-FASILKOM-OS/git/)
+[TOP](#)
+[BOTTOM](#endofpage)
+[PREV](a00-create-repo.md)
+[NEXT](index.md)
+
+# Git Basics 1
+
+<br>
+* Hello Git! 
+
+Input (Cut and Paste):
+```
+pwd
+ls -al
+echo "Hello Git!" > hello.txt
+cat hello.txt 
+git add hello.txt 
+git commit -m "Pertamax!"
+git log
+```
+
+Output:
+```
+$ pwd
+/home/demo/exercise/demo
+
+$ ls -al
+total 12
+drwxr-xr-x 3 demo demo 4096 Aug  9 14:53 .
+drwxr-xr-x 5 demo demo 4096 Aug  9 21:43 ..
+drwxr-xr-x 8 demo demo 4096 Aug  9 21:39 .git
+
+$ echo "Hello Git!" > hello.txt
+
+$ cat hello.txt 
+Hello Git!
+
+$ git add hello.txt 
+
+$ git commit -m "Pertamax!"
+[master dd726fe] Pertamax!
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.txt
+
+$ git log
+commit dd726fe939e9d933e3a492fb3dd857a8428ca4ac (HEAD -> master)
+Author: My Name <my@e.mail>
+Date:   Mon Aug 10 08:41:50 2020 +0700
+
+    Pertamax!
+
+commit 498dda4b0ca033599960e404b4a02cadcbb65acc (origin/master)
+Author: My Name <my@e.mail>
+Date:   Sun Aug 9 15:44:46 2020 +0700
+
+    Initial Commit
+$ 
+```
+
+<br>
+* Status
+
+Input (Cut and Paste):
+```
+git status
+echo "Second File" > second.txt
+cat second.txt 
+git status
+echo "File 3" > file3.txt
+git status
+```
+
+Output:
+```
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+$ echo "Second File" > second.txt
+
+$ cat second.txt 
+Second File
+
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	second.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+$ git add second.txt 
+
+$ git status 
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   second.txt
+
+$ echo "File 3" > file3.txt
+
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   second.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	file3.txt
+
+$ 
+```
+
+<br>
+<hr>
+<br>
+#### ENDOFPAGE
+[HOME](index.md)
+[ABOUT](README.md)
+[WEB](https://git.vlsm.org/)
+[GITHUB](https://github.com/UI-FASILKOM-OS/git/)
+[TOP](#)
+[BOTTOM](#endofpage)
+[PREV](a00-create-repo.md)
+[NEXT](index.md)
+<br>
+

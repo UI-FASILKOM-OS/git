@@ -7,13 +7,13 @@
 [GITHUB](https://github.com/UI-FASILKOM-OS/git/)
 [TOP](#)
 [BOTTOM](#endofpage)
-[PREV](a10-git-basics.md)
-[NEXT](a00-create-repo.md)
+[PREV](a02-git-basics.md)
+[NEXT](a01-git-basics.md)
 
 # Links
 
-* [Create Git Exercise Repositories](a00-create-repo.md)
-* [Git Basics](a10-git-basics.md)
+* [Create Git Exercise Repositories](a01-git-basics.md)
+* [Git Basics](a02-git-basics.md)
 
 <br>
 <hr>
@@ -25,7 +25,7 @@
 [GITHUB](https://github.com/UI-FASILKOM-OS/git/)
 [TOP](#)
 [BOTTOM](#endofpage)
-[PREV](a10-git-basics.md)
-[NEXT](a00-create-repo.md)
+[PREV](a02-git-basics.md)
+[NEXT](a01-git-basics.md)
 <br>
 

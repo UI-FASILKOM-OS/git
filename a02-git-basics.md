@@ -7,24 +7,18 @@
 [GITHUB](https://github.com/UI-FASILKOM-OS/git/)
 [TOP](#)
 [BOTTOM](#endofpage)
-[PREV](a00-create-repo.md)
+[PREV](a01-git-basics.md)
 [NEXT](index.md)
 
-# Git Basics
+# Git Basics 1
 
 <br>
-* Git Basics
+* Hello Git! 
 
 Input (Cut and Paste):
 ```
-pwd
-```
 
 Output:
-```
-$ pwd
-/home/demo/exercise
-$
 ```
 
 <br>
@@ -37,7 +31,7 @@ $
 [GITHUB](https://github.com/UI-FASILKOM-OS/git/)
 [TOP](#)
 [BOTTOM](#endofpage)
-[PREV](a00-create-repo.md)
+[PREV](a01-git-basics.md)
 [NEXT](index.md)
 <br>
 
