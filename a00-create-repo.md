@@ -7,6 +7,8 @@
 [GITHUB](https://github.com/UI-FASILKOM-OS/git/)
 [TOP](#)
 [BOTTOM](#endofpage)
+[PREV](index.md)
+[NEXT](a10-git-basics.md)
 
 # Create Git Repositories
 
@@ -106,17 +108,25 @@ $
 * Name and Email
   * Replace "my@e.mail" with your (fake?) email.
   * Replace "My Name" with you (fake?) name.
+  * See also ".gitconfig".
 
 Input (Cut and Paste):
 ```
 git config --global user.email "my@e.mail"
 git config --global user.name "My Name"
+git config --list
+git config user.name
 ```
 
 Output:
 ```
 $ git config --global user.email "my@e.mail"
 $ git config --global user.name "My Name"
+$ git config --list
+user.email=my@e.mail
+user.name=My Name
+$ git config user.name
+My Name
 $
 ```
 
@@ -254,5 +264,7 @@ $
 [GITHUB](https://github.com/UI-FASILKOM-OS/git/)
 [TOP](#)
 [BOTTOM](#endofpage)
+[PREV](index.md)
+[NEXT](a10-git-basics.md)
 <br>
 
