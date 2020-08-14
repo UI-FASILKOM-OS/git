@@ -1,4 +1,10 @@
 
+git config --global user.email  "demo@ema.il"
+git config --global user.name   "Mr. Demo"
+git config --global core.editor "vi"
+cat ~/.gitconfig
+git config --list
+
 PS1="$ "
 mkdir exercise
 cd exercise/
