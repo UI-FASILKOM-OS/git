@@ -2,6 +2,9 @@
 git config --global user.email  "demo@ema.il"
 git config --global user.name   "Mr. Demo"
 git config --global core.editor "vi"
+git config user.email
+git config user.name
+git config core.editor
 cat ~/.gitconfig
 git config --list
 
