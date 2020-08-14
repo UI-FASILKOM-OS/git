@@ -1,0 +1,7 @@
+
+PS1="$ "
+mkdir exercise
+cd exercise/
+ls -al
+pwd
+
