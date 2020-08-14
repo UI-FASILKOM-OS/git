@@ -2,6 +2,32 @@
 PS1="$ "
 mkdir exercise
 cd exercise/
-ls -al
+
 pwd
+ls -al
+git init demo
+ls -l
+cd demo/
+ls -l
+git status
+
+pwd
+ls -l; git status
+echo "File 1" > file1.txt
+ls -l; git status
+rm -f file1.txt
+ls -l; git status
+
+
+pwd
+ls -l; git status
+echo "File 1" > file1.txt
+ls -l; git status
+git add file1.txt
+git status
+git rm --cached file1.txt
+ls -l; git status
+rm -f file1.txt
+ls -l; git status
+
 
