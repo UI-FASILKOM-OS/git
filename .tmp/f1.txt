@@ -1,10 +1,21 @@
-
+# .bash_aliases
+alias cl='clear'
+alias h='history'  
+alias mv='mv -i'  
+alias rm='rm -i'  
+alias sss='. ~/.profile'
 gitstat() {
    git rev-parse --is-inside-work-tree &> /dev/null
    [ "$?" == "0" ] && git status
    ls -aF
    printf "ZCZCNNNN ==== ===== PWD:%s\n" $(pwd)
 }
+export EDITOR=/usr/bin/vi
+export GPG_TTY=/dev/tty
+export HISTSIZE=2000
+export HISTFILESIZE=2000 
+
+
 gitstat
 PS1="$ "
 git config --global user.email  "demo@ema.il"
