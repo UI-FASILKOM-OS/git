@@ -1,10 +1,3 @@
-# file1.txt
-gitstat
-echo "File 1" > file1.txt
-gitstat
-rm -f file1.txt
-gitstat
-
 # git add
 gitstat
 echo "This is File1" > file1.txt
@@ -32,7 +25,6 @@ git rm --cached file1.txt
 gitstat
 rm -f file1.txt
 gitstat
-
 
 # git commit
 gitstat
