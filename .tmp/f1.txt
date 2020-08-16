@@ -57,3 +57,23 @@ gitstat
 rm -f file1.txt
 gitstat
 
+# modified
+gitstat
+echo "File 1" > file1.txt
+git add file1.txt
+echo "File 1 mod" > file1.txt
+gitstat
+git checkout -- file1.txt
+gitstat
+git rm --cached file1.txt
+gitstat
+rm -f file1.txt
+gitstat
+
+
+
+
+
+
+
+
