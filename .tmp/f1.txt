@@ -48,7 +48,7 @@ gitstat
 
 # git add
 gitstat
-echo "File 1" > file1.txt
+echo "This is File1" > file1.txt
 gitstat
 git add file1.txt
 gitstat
@@ -59,10 +59,14 @@ gitstat
 
 # modified
 gitstat
-echo "File 1" > file1.txt
+echo "This is File1" > file1.txt
+cat file1.txt
 git add file1.txt
-echo "File 1 mod" > file1.txt
+echo "This is modified File1" > file1.txt
 gitstat
+cat file1.txt
+git diff
+git diff --staged
 git checkout -- file1.txt
 gitstat
 git rm --cached file1.txt
@@ -71,9 +75,19 @@ rm -f file1.txt
 gitstat
 
 
-
-
-
-
+# git commit
+gitstat
+echo "This is File1" > file1.txt
+git add file1.txt
+git commit -m "Add File1"
+gitstat
+git rm  file1.txt
+gitstat
+git reset HEAD file1.txt
+gitstat
+git rm  file1.txt
+gitstat
+git commit -m "Delete File1"
+gitstat
 
 
