@@ -1,4 +1,7 @@
 
+export STRING="ZCZCNNNN ==== ==== Print Working Directory (PWD):%s\n"
+printf "$STRING" $(pwd); ls -l;
+PS1="$ "
 git config --global user.email  "demo@ema.il"
 git config --global user.name   "Mr. Demo"
 git config --global core.editor "vi"
@@ -7,18 +10,17 @@ git config user.name
 git config core.editor
 cat ~/.gitconfig
 git config --list
-
-PS1="$ "
 mkdir exercise
 cd exercise/
+printf "$STRING" $(pwd); ls -l;
 
-pwd
-ls -al
+export STRING="ZCZCNNNN ==== ==== Print Working Directory (PWD):%s\n"
+printf "$STRING" $(pwd); ls -l;
 git init demo
-ls -l
+printf "$STRING" $(pwd); ls -l;
 cd demo/
-ls -l
 git status
+printf "$STRING" $(pwd); ls -l;
 
 pwd
 ls -l; git status
