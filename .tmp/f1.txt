@@ -16,6 +16,7 @@ export HISTSIZE=2000
 export HISTFILESIZE=2000 
 
 
+# .gitconfig
 gitstat
 PS1="$ "
 git config --global user.email  "demo@ema.il"
@@ -31,19 +32,21 @@ cd exercise/
 gitstat
 
 
+# git init
 gitstat
 git init demo
 cd demo/
 gitstat
 
 
+# file1.txt
 gitstat
 echo "File 1" > file1.txt
 gitstat
 rm -f file1.txt
 gitstat
 
-
+# git add
 gitstat
 echo "File 1" > file1.txt
 gitstat
