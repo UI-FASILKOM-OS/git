@@ -6,9 +6,13 @@ git add file1.txt
 gitstat
 git commit -m "Add File1"
 gitstat
-git rm  file1.txt
+git mv  file1.txt file2.txt
 gitstat
-git commit -m "Delete File1"
+git commit -m "Move File1 File2"
+gitstat
+git rm  file2.txt
+gitstat
+git commit -m "Delete File2"
 gitstat
 
 
