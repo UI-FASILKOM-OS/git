@@ -1,4 +1,4 @@
-# .bash_aliases
+# File .bash_aliases
 alias cl='clear'
 alias h='history'  
 alias mv='mv -i'  
@@ -16,7 +16,7 @@ export HISTSIZE=2000
 export HISTFILESIZE=2000 
 
 
-# .gitconfig
+# Config
 gitstat
 PS1="$ "
 git config --global user.email  "demo@ema.il"

@@ -1,4 +1,3 @@
-# git init
 gitstat
 git init testgit
 gitstat

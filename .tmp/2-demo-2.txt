@@ -1,4 +1,3 @@
-#
 gitstat
 cd demo
 gitstat
