@@ -1,0 +1,14 @@
+Branch
+
+File Status:
+* UNMODIFIED (nothing to commit, working tree clean) 
+*** REMOVE:   git rm <file>           --> STAGED
+
+* UNTRACKED (Untracked files)
+*** ADD:      git add <file>...       --> STAGED
+
+* STAGED (Changes to be committed)
+*** UNSTAGE:  git reset HEAD <file>   --> UNTRACKED
+*** RENAME:   git mv <file1> <file2>  --> STAGED
+*** COMMIT:   git commit              --> UNMODIFIED
+
