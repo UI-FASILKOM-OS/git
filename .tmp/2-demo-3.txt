@@ -1,0 +1,18 @@
+gitstat
+cd cloneDir
+gitstat
+git pull
+gitstat
+echo "Update File1" > file1.txt
+rm -f file2.txt
+echo "File4" > file4.txt
+gitstat
+git add -A
+gitstat
+git push
+gitstat
+cd ../demo/
+gitstat
+git pull
+gitstat
+

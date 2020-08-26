@@ -1,3 +1,17 @@
 #
 gitstat
-cd demoZZ
+cd demo
+gitstat
+echo "File1" > file1.txt
+echo "File2" > file2.txt
+echo "File3" > file3.txt
+gitstat
+git add -A
+gitstat
+git commit -m "Three files"
+gitstat
+git push
+gitstat
+cd ..
+gitstat
+
