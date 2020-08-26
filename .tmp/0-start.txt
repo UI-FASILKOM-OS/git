@@ -32,10 +32,3 @@ cd exercise/
 gitstat
 
 
-# git init
-gitstat
-git init demo
-cd demo/
-gitstat
-
-

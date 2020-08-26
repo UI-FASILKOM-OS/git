@@ -1,0 +1,6 @@
+# git init
+gitstat
+git init demo2
+cd demo2/
+gitstat
+
