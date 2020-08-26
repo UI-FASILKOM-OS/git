@@ -1,6 +1,6 @@
 # git init
 gitstat
-git init demo1
-cd demo1/
+git init testgit
+cd testgit/
 gitstat
 

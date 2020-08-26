@@ -1,8 +1,8 @@
 # git init
 gitstat
-git init demo2
+git init demo
 git init remoteDemo --bare
-cd demo2/
+cd demo/
 git commit -am "Initial Commit" --allow-empty
 gitstat
 git remote add origin ../remoteDemo/
@@ -10,7 +10,7 @@ gitstat
 git push --set-upstream origin master
 gitstat
 cd .. 
-git clone remoteDemo/ demo3
-cd demo3
+git clone remoteDemo/ cloneDir
+cd cloneDir
 gitstat
 
