@@ -1,6 +1,7 @@
 # git init
 gitstat
 git init testgit
+gitstat
 cd testgit/
 gitstat
 cd ..
