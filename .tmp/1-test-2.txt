@@ -1,5 +1,5 @@
 gitstat
-cd testgit
+cd firstGit
 gitstat
 echo "File 1" > file1.txt
 gitstat

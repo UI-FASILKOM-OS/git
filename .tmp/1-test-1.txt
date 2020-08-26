@@ -1,7 +1,7 @@
 gitstat
-git init testgit
+git init firstGit
 gitstat
-cd testgit/
+cd firstGit/
 gitstat
 cd ..
 gitstat
