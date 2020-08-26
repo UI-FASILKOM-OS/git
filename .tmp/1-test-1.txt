@@ -3,4 +3,6 @@ gitstat
 git init testgit
 cd testgit/
 gitstat
+cd ..
+gitstat
 

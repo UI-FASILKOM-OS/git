@@ -31,4 +31,3 @@ mkdir exercise
 cd exercise/
 gitstat
 
-

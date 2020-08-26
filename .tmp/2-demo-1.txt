@@ -13,4 +13,6 @@ cd ..
 git clone remoteDemo/ cloneDir
 cd cloneDir
 gitstat
+cd ..
+gitstat
 

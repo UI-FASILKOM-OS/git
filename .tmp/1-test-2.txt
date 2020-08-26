@@ -1,5 +1,7 @@
 # file1.txt
 gitstat
+cd testgit
+gitstat
 echo "File 1" > file1.txt
 gitstat
 git add file1.txt
@@ -14,5 +16,6 @@ git rm  file2.txt
 gitstat
 git commit -m "Delete File2"
 gitstat
-
+cd ..
+gitstat
 
