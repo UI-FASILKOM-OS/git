@@ -19,15 +19,22 @@ export HISTFILESIZE=2000
 # Config
 gitstat
 PS1="$ "
-git config --global user.email  "demo@ema.il"
-git config --global user.name   "Mr. Demo"
-git config --global core.editor "vi"
+git config --global user.email        'cbkadal@DELETE.vlsm.org'
+git config --global user.name         'Cicak Bin Kadal'
+git config --global core.editor       'vi'
+git config --global credential.helper 'cache --timeout=3600'
 git config user.email
 git config user.name
 git config core.editor
-cat ~/.gitconfig
+git config credential.helper
 git config --list
+cat ~/.gitconfig
+gitstat
+
+# exercise
+gitstat
 mkdir exercise
 cd exercise/
 gitstat
+
 
