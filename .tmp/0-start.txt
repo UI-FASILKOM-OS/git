@@ -17,10 +17,8 @@ export HISTFILESIZE=2000
 
 
 # Config
-gitstat
 cd
 gitstat
-PS1="$ "
 git config --global user.email        'cbkadal@DELETE.vlsm.org'
 git config --global user.name         'Cicak Bin Kadal'
 git config --global core.editor       'vi'
